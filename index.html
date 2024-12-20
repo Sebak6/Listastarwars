@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Lista de Star Wars</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicons -->
+    <link href="assets/img/boda.png" rel="icon" />
+    <link href="assets/img/boda.png" rel="peq" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
+      >
+        <a
+          href="index.html"
+          class="logo d-flex align-items-center me-auto me-xl-0"
+        >
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <img
+            src="assets/img/boda.png"
+            alt="Logo"
+            style="
+              width: 40px;
+              height: 40px;
+              margin-right: 10px;
+              border-radius: 50%;
+              object-fit: cover;
+            "
+          />
+          <h1 class="sitename">Lista de Sueños Star Wars</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a
+          class="btn-getstarted"
+          href="https://paginaprincipal-orcin.vercel.app/"
+          >Volver a la web</a
+        >
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+                <h1 class="mb-4">Mi Lista de Sueños <br /></h1>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
+                <img
+                  src="assets/img/Milista123.png"
+                  alt="Hero Image"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Hero Section -->
+
+      <!-- About Section -->
+
+      <!-- /About Section -->
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h4>Por favor ingresa tus datos</h4>
+          <form class="paymentForm">
+            <div class="form-group">
+              <label for="name">Tu Nombre</label>
+              <input type="text" class="form-control name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Tu Correo Electrónico</label>
+              <input type="email" class="form-control email" required />
+            </div>
+            <br />
+            <button type="submit" class="btn btn-success">
+              Continuar con el pago
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <section id="services" class="services section light-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Sueños disponibles de Star Wars</h2>
+        </div>
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="./assets/img/1.jpg" height="30px" alt="Set de Platos" />
+            <div class="product-info">
+              <h3>El sable de luz de Jedi</h3>
+              <p style="text-align: justify">
+                ¡Que la Fuerza te acompañe! Con este sable de luz, el celebrante podrá enfrentarse a los Sith y defender la paz en la galaxia. Es perfecto para los que desean sentir la emoción de luchar como un Jedi, ya sea en entrenamientos o en batallas intergalácticas.
+              </p>
+              <p>Precio: $30.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/2.jpg" alt="Robot Aspiradora" />
+            <div class="product-info">
+              <h3>El sable de luz de Darth Vader</h3>
+              <p style="text-align: justify">
+                Un regalo para los más oscuros. Con el sable de luz de Darth Vader, el celebrante podrá canalizar el poder del lado oscuro de la Fuerza. Ideal para los que se sienten atraídos por el misterio y el poder de los Sith. ¡Que comience la batalla!
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/3.jpg" alt="Viaje a París" />
+            <div class="product-info">
+              <h3>El Halcón Milenario a escala</h3>
+              <p style="text-align: justify">
+                ¡Viaja por toda la galaxia! Este modelo a escala del Halcón Milenario es el regalo perfecto para los que sueñan con recorrer los rincones más lejanos del universo. Con detalles finos y un diseño espectacular, es ideal para los fanáticos de Han Solo y Chewbacca.
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/4.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>La capa de Darth Vader</h3>
+              <p style="text-align: justify">
+                ¿Quién no ha querido vestirse como el Lord Sith más famoso de todos? Con la capa de Darth Vader, el celebrante podrá evocar todo el poder de la oscuridad. Es ideal para los fanáticos del lado oscuro de la Fuerza.
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <img src="./assets/img/5.jpg" alt="Set de Platos" />
+            <div class="product-info">
+              <h3>El droide BB-8</h3>
+              <p style="text-align: justify">
+                Este adorable droide es el compañero perfecto para cualquier fan de Star Wars. BB-8 es un regalo interactivo que responde a comandos y puede moverse por toda la casa. ¡Un regalo ideal para los que buscan la compañía de un droide leal!
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/6.jpg" alt="Robot Aspiradora" />
+            <div class="product-info">
+              <h3>La mochila de Chewbacca</h3>
+              <p style="text-align: justify">
+                Lleva a Chewbacca siempre contigo con esta mochila de peluche. El fiel wookiee se convertirá en tu compañero de aventuras, y con su aspecto realista, ¡será el centro de todas las miradas!
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/7.jpg" alt="Aca no hay nada!" />
+            <div class="product-info">
+              <h3>La armadura de Mandalorian</h3>
+              <p style="text-align: justify">
+                Vístete como el cazarrecompensas más famoso de la galaxia con la armadura de Mandalorian. Este conjunto de armaduras personalizadas es perfecto para los que quieren recorrer la galaxia en busca de recompensas... o solo para impresionar en las fiestas.
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/8.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>El casco de Darth Vader</h3>
+              <p style="text-align: justify">
+                ¡Conviértete en el villano más temido! Este casco de Darth Vader, con detalles impresionantes, es un regalo épico para los fanáticos de los Sith. No solo es un artículo coleccionable, sino también un gran accesorio para cosplay.
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/9.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>El bláster de Han Solo</h3>
+              <p style="text-align: justify">
+                El bláster más famoso de la galaxia. Este regalo permitirá que el celebrante se sienta como el intrépido Han Solo, listo para disparar a cualquier enemigo que se cruce en su camino. Ideal para los que quieren defenderse con estilo y destreza.
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/10.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>La réplica de la Estrella de la Muerte</h3>
+              <p style="text-align: justify">
+                Un regalo de impacto. La réplica de la Estrella de la Muerte es la pieza de colección perfecta para los fanáticos más dedicados de Star Wars. No solo es imponente, sino que también es una representación de la dominación del Imperio Galáctico.
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/11.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>El sable de luz de Yoda</h3>
+              <p style="text-align: justify">
+                Este sable de luz es el que usaría el Gran Maestro Yoda, lleno de sabiduría y poder. Ideal para los que siguen el camino de la Fuerza con paciencia y prudencia. ¡Un regalo lleno de enseñanza y poder!
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/12.webp" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>Las botas de Boba Fett</h3>
+              <p style="text-align: justify">
+                Haz que el celebrante se convierta en un cazarrecompensas con estas botas de Boba Fett. Con un diseño inspirado en la armadura de Mandalore, estas botas darán un toque único y misterioso a cualquier atuendo.
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/13.png" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>La camiseta de la Alianza Rebelde</h3>
+              <p style="text-align: justify">
+                Con esta camiseta de la Alianza Rebelde, el celebrante podrá mostrar su apoyo a los héroes que luchan contra el Imperio. Ideal para los que prefieren el lado de los buenos y buscan un atuendo cómodo para sus aventuras diarias.
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/14.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>La taza de Darth Vader</h3>
+              <p style="text-align: justify">
+                Comienza tu día con un toque oscuro. Con esta taza de Darth Vader, el celebrante podrá disfrutar de su bebida favorita mientras recuerda las palabras de Vader: "Yo soy tu padre". ¡Un regalo épico para los fans de la saga!
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/15.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>El R2-D2 interactivo</h3>
+              <p style="text-align: justify">
+                Un R2-D2 que se mueve, responde a comandos y te sigue. Este droide astromecánico es el compañero perfecto para cualquier fan de Star Wars. Además, puede reproducir sonidos de la saga para un toque extra de nostalgia.
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/16.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>La capa de Jedi</h3>
+              <p style="text-align: justify">
+                Vístete como un Jedi con esta capa. Hecha con materiales de alta calidad, esta capa es perfecta para aquellos que desean canalizar el poder de la Fuerza en sus aventuras diarias. ¡Ideal para cosplay o para protegerse del frío galáctico!
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/17.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>La camiseta de Yoda</h3>
+              <p style="text-align: justify">
+                "La Fuerza es fuerte en ti". Con esta camiseta de Yoda, el celebrante podrá llevar la sabiduría del Maestro Jedi en su pecho, recordando siempre que la paciencia es clave para alcanzar el equilibrio de la Fuerza.
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/18.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>El mapa estelar de la galaxia de Star Wars</h3>
+              <p style="text-align: justify">
+                Este mapa estelar muestra los sistemas planetarios más importantes de la galaxia de Star Wars. Con detalles precisos y colores vibrantes, es un regalo perfecto para los fanáticos que desean explorar todos los rincones del universo de Star Wars.
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/19.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>La réplica del trono de Palpatine</h3>
+              <p style="text-align: justify">
+                Toma el poder del Imperio con esta réplica del trono de Palpatine. Ideal para los que desean sentirse como el líder del lado oscuro. ¡Que la galaxia tiemble ante tu presencia!
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/20.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>La mochila de R2-D2</h3>
+              <p style="text-align: justify">
+                Lleva a tu droide favorito a todas partes con esta mochila inspirada en R2-D2. Con detalles realistas, esta mochila es ideal para los fanáticos que quieren tener a su compañero de aventuras siempre cerca.
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/21.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>El casco de Boba Fett</h3>
+              <p style="text-align: justify">
+                Haz que el celebrante se convierta en el mejor cazarrecompensas con este casco de Boba Fett. Con detalles auténticos, este casco es ideal para los que quieren rendir homenaje al personaje más legendario de la saga.
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/22.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>La espada láser de Kylo Ren</h3>
+              <p style="text-align: justify">
+                La espada láser de Kylo Ren es un símbolo de poder y caos. Con este sable, el celebrante podrá canalizar la furia del lado oscuro, con su distintivo diseño de doble hoja. ¡Un regalo ideal para los que desean un toque de oscuridad!
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/23.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>La taza de Chewbacca</h3>
+              <p style="text-align: justify">
+                Disfruta de un buen trago con la taza de Chewbacca, un regalo perfecto para los fanáticos del fiel compañero de Han Solo. ¡Su diseño realista hará que cada bebida sea aún más divertida!
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/24.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>La almohada de Darth Vader</h3>
+              <p style="text-align: justify">
+                La perfecta almohada para los fans más oscuros. Con la imagen de Darth Vader, el celebrante podrá dormir tranquilamente, soñando con conquistar la galaxia, sin olvidar que "la Fuerza es poderosa en él".
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/25.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>La mochila de Darth Maul</h3>
+              <p style="text-align: justify">
+                Con esta mochila inspirada en Darth Maul, el celebrante podrá llevar sus pertenencias con estilo. Su diseño único y detalles en color rojo la hacen perfecta para aquellos que desean mezclar la moda con el lado oscuro de la Fuerza.
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/26.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>El cómic de Star Wars</h3>
+              <p style="text-align: justify">
+                Para los fanáticos de las historias clásicas de Star Wars, este cómic recopila las aventuras épicas de los personajes más famosos. ¡Un regalo perfecto para los que desean revivir la emoción de la galaxia!
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/27.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>La lámpara de Darth Vader</h3>
+              <p style="text-align: justify">
+                Esta lámpara que representa a Darth Vader es el complemento ideal para cualquier cuarto. Su luz tenue crea la atmósfera perfecta para los que prefieren la oscuridad, sin perder el estilo galáctico.
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/28.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>El bastón de Yoda</h3>
+              <p style="text-align: justify">
+                Este bastón es la herramienta ideal para aquellos que siguen el camino de la sabiduría. Hecho para los que desean caminar como el gran maestro Jedi Yoda, con su poder y serenidad.
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/29.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>La lámpara de R2-D2</h3>
+              <p style="text-align: justify">
+                ¡Haz que R2-D2 ilumine tu camino! Esta lámpara funcional será la guía perfecta para aquellos que buscan algo más que un simple objeto de decoración.
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="./assets/img/30.jpg" alt="Juego de Toallas" />
+            <div class="product-info">
+              <h3>La silla del trono de Jabba el Hutt</h3>
+              <p style="text-align: justify">
+                Para los más extravagantes, esta silla inspirada en el trono de Jabba el Hutt es el regalo perfecto. Ideal para los fanáticos del gangster más famoso de Tatooine.
+              </p>
+              <p>Precio: $20.000.-</p>
+              <button class="btn btn-primary openModal">Elegir</button>
+            </div>
+          </div>                  
+          
+        </div>
+
+        <a
+          href="https://wa.me/?text=¡Te%20comparto%20mi%20lista%20de%20sueños:%20https://listamortalkombat.vercel.app///"
+          target="_blank"
+          class="btn-share-whatsapp"
+        >
+          Comparte tu Lista en WhatsApp
+        </a>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Mi Lista de Sueños</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p class="mt-3">
+                <strong>Instagram:</strong>
+                <a
+                  href="https://www.instagram.com/milistadesuenos"
+                  target="_blank"
+                  >Milistadesuenos</a
+                >
+              </p>
+              <p class="mt-3">
+                <strong>Whatsapp:</strong>
+                <a
+                  href="https://wa.me/56961457336"
+                  class="contact-number"
+                  target="_blank"
+                >
+                  +56961457336
+                </a>
+              </p>
+              <p class="mt-3">
+                <strong>Correo:</strong>
+                <a href="mailto:Milistadesuenos13@gmail.com"
+                  >Milistadesuenos13@gmail.com</a
+                >
+              </p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-envelope"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <ul></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">Mi Lista de sueños</strong>
+          <span>All Rights Reserved</span>
+        </p>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Creado por <a href="https://se.com/">la wawa</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
